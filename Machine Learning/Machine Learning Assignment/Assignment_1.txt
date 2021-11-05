@@ -1,0 +1,84 @@
+1). What does one mean by the term "Machine Learning?
+A:- According to Tom Mitchell, A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.
+
+
+2). Can you think of 4 distinct type of issues where it shines?
+A:- a) Healthcare
+    b). Games
+    c). Surveillance
+    d). Ecommerce
+    
+    
+3). What is a labeled training set, and how does it work?
+A:- The training set consisting of data tagged with labels. The model is trained on this labelled dataset and used for predictions on unseen data.
+
+
+4). What are the two most important tasks that are supervised?
+A:- Regression and Classification
+
+
+5). Can you think of four examples of unsupervised tasks?
+A:- Dimensionality Reduction, Clustering, Manifold Learning, visualization
+
+
+6). State the machine learning model that would be best to make a robot walk through various unfamiliar terrains?
+A:- Reinforcement Learning
+
+
+7). Which algorithm will you use to divide your customers into different groups?
+A:- Clustering
+
+
+8). Will you consider the problem of spam detection to be a supervised or unsupervised learning problem?
+A:- Supervised
+
+
+9). What is the concept of an online learning system?
+A:- It is a model re-training approach where the model trains on the go as data arrives after making the predictions.
+
+
+10). What is out-of-core learning, and how does it differ from core learning?
+A:- Out-of-core learning refers to a set of algorithms working with data that cannot fit into the memory of a single computer. In this approach training is done in an incremental fashion as opposed to core learning where learning happens in a single run.
+
+
+11). What kind of learning algorithm makes predictions using a similarity measure?
+A:- Instance-Based Learning
+
+
+12). What's the difference between a model parameter and a hyperparameter in a learning algorithm?
+A:- The parameters learnt by the model during the training process are called model parameters, the parameters that are explicitely set by the programmer before starting the training are called hyper-parameters.
+
+
+13). What are the criteria that model-based learning algorithms look for? What is the most popular method they use to achieve success? What method do they use to make predictions?
+A:- Model-Based Learning Algorithms look for optimal values of model-parameters that generalize well on unseen data. o do this, model based algorithms search for optimal values for the model's parameters, often called theta. Model-based system learn by minimizing a cost function that measures how bad the system is at making predicitons on new data, plus a penalty for model complexity if the model is regularized. To make a prediction, a new instance's features are fed into a hypothesis function which uses the minimized theta found by repeatedly running the cost function.
+
+
+14). Can you name four of the most important Machine Learning challenges?
+A:-  a). Not enough training data. 
+     b). Poor Quality of data. 
+     c). Irrelevant features. 
+     d). Non-representative training data
+     e). Overfitting the data (using a model too complicated)
+     f). Underfitting the data (using a simple model)
+
+
+15). What happens if the model performs well on the training data but fails to generalize the results to new situations? Can you think of three different options?
+A:- It is an Overfitting problem. This can be overcome by reducing the model complexity by removing features or constraining the parameters. We could gather more data. Finally we can reduce noisiness in the data by fixing errors and removing outliers.
+
+
+16). What exactly is a test set, and why would you need one?
+A:- When we want to know how well our model generalizes to new cases we prefer to use a test set instead of actually deploying the system. To build the test set we split the training data (50-50, 60-40, 80-20 are common splits) into a training set and test set. Our model is training with the training set. Then we use the model to run predictions on the test set. Our error rate on the test set is called the generalization error or out-of-sample error. This error tells us how well our model performs on examples it has never seen before.
+
+
+17). What is a validation set's purpose?
+A:- Validation data provides the first test against unseen data, allowing us to evaluate how well the model makes predictions based on the new data. Its purpose is to test data apart from the test set.
+
+
+18). What precisely is the train-dev kit, when will you need it, how do you put it to use?
+A:- It is splitting the data into train/dev/test. We use it to find the best parameters of the model and best model out of all other available ones. We can use it in the split of order 70/20/10 to filterout the best model. 
+
+
+19). What could go wrong if you use the test set to tune hyperparameters?
+A:- Your model will not be generalizable to new examples/data.
+
+
