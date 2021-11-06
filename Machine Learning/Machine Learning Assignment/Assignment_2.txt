@@ -1,8 +1,29 @@
 
 1). What is the concept of human learning? Please give two examples.
-A:- It is the form of learning which requires higher order mental processes like thinking, reasoning, intelligence, etc.  used in the process of acquiring new understanding, knowledge, behaviors, skills, values, attitudes, and preferences. Human learning starts at birth and continues until death as a consequence of ongoing interactions between people and their environment. It varies from Human to Human.
+A:- It is the form of learning which requires higher order mental processes like thinking, reasoning, intelligence, etc.  
+    are used in the process of acquiring new understanding, knowledge, behaviors, skills, values, attitudes, and preferences. 
+    Human learning starts at birth and continues until death as a consequence of ongoing interactions between people and their environment. 
+    It varies from Human to Human.
+    
     Ex:- a). when we see a dog and attach the term 'dog', we learn that the word dog refers to a particular animal.
          b). In higher order learning we use cognitive abilities-such as thinking, reasoning, observation, imagination, generalization, etc.
          
+         
 2). What different forms of human learning are there? Are there any machine learning equivalents?
-A:- 
+A:- The different forms of human learning involves
+    a). Hebbian learning
+    b). Verbal Learning
+    c). Concept Learning
+    d). Operant conditioning
+    e). Learning of Principles etc.,
+    
+    --> Supervised Learning in Machine Learning is equivalent of Concept Learning
+    --> Unsupervised Learning is equivalent of  Hebbian learning
+    --> Reinforcement Learning is equivalent of  Operant conditioning
+    
+
+3). What is machine learning, and how does it work? What are the key responsibilities of machine learning?
+A:- Machine learning is a form of artificial intelligence (AI) that teaches computers to think in a similar way to how humans do: Learning and improving upon
+    past experiences. It works by exploring data and identifying patterns, and involves minimal human intervention.
+
+    
