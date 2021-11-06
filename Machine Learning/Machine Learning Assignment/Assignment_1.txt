@@ -1,5 +1,6 @@
 1). What does one mean by the term "Machine Learning?
-A:- According to Tom Mitchell, A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.
+A:- According to Tom Mitchell, A computer program is said to learn from experience E with respect to 
+    some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.
 
 
 2). Can you think of 4 distinct type of issues where it shines?
@@ -38,7 +39,8 @@ A:- It is a model re-training approach where the model trains on the go as data 
 
 
 10). What is out-of-core learning, and how does it differ from core learning?
-A:- Out-of-core learning refers to a set of algorithms working with data that cannot fit into the memory of a single computer. In this approach training is done in an incremental fashion as opposed to core learning where learning happens in a single run.
+A:- Out-of-core learning refers to a set of algorithms working with data that cannot fit into the memory of a single computer. 
+    In this approach training is done in an incremental fashion as opposed to core learning where learning happens in a single run.
 
 
 11). What kind of learning algorithm makes predictions using a similarity measure?
