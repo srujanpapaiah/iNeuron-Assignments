@@ -25,5 +25,108 @@ A:- The different forms of human learning involves
 3). What is machine learning, and how does it work? What are the key responsibilities of machine learning?
 A:- Machine learning is a form of artificial intelligence (AI) that teaches computers to think in a similar way to how humans do: Learning and improving upon
     past experiences. It works by exploring data and identifying patterns, and involves minimal human intervention.
-
     
+    Designing ML systems.
+    Researching and implementing ML algorithms and tools.
+    Selecting appropriate data sets.
+    Picking appropriate data representation methods.
+    Identifying differences in data distribution that affects model performance.
+    Verifying data quality.
+    Transforming and converting data science prototypes.
+    Performing statistical analysis.
+    Running machine learning tests.
+    Using results to improve models.
+    Training and retraining systems when needed.
+    Extending machine learning libraries.
+    Developing machine learning apps according to client requirements.
+    
+    
+4). Define the terms "penalty" and "reward" in the context of reinforcement learning.
+A:- In Reinforcement Learning (RL), agents are trained on a reward and punishment mechanism. The agent is rewarded for correct moves and punished for the wrong         ones. In doing so, the agent tries to minimize wrong moves and maximize the right ones.
+
+
+5). Explain the term "learning as a search"?
+A:- we can think of concept learning in Machine learning as a search problem. The learner searches through a space of hypotheses to find the best one. while searching and trying different hypotheses, we would hope for the learner to eventually converge to the correct hypothesis. This convergence is the same idea as Learning.
+
+
+6).  What are the various goals of machine learning? What is the relationship between these and human learning?
+A:- The main goal of machine learning is to give computers the ability to learn itself without being explicitly programmed. It identifies patterns from preprocessed data and make decisions with minimal human intervention. To be more specific, there are three aspects of the goals
+of ML.
+        (a) To make the computers more intelligent. The more direct objective in this aspect is to develop systems (programs) for specific practical                             learning tasks in application domains.
+        (b) To develop computational models of human learning process and perform computer simulations. The study in this aspect is also called cognitive modeling.
+        (c) To explore new learning methods and develop general learning algorithms independent of applications.
+    
+Both human as well as machine learning generate knowledge, one residing in the brain the other residing in the machine. we can use these as parameters for comparision.
+                i).   Speed
+                ii).  Ability to transfer
+                iii). Repetition
+                iv).  Error-prone
+                v).   Noise-tolerant
+                           
+                           
+                               
+7). Illustrate the various elements of machine learning using a real-life illustration.
+A:- Machine learning is relevant in many fields, industries. Here are three real-life examples of how machine learning is being used.
+    i).   Image recognition :- In real world we use "Label an x-ray as cancerous or not" and "tagging images"
+    
+    ii).  Speech recognition :- In real world we use for "Voice Search" and "Appliance control"
+    
+    iii). Predictive analytics :- In real world we use it to "predict weather" and "fault prediction".
+    
+    
+8).  Provide an example of the abstraction method.
+A:- Abstraction is a simplification of the representation of a problem which enables that problem to be solved more efficiently (using less memory and/or less computation). Examples of data abstraction are:
+
+                             Reducing spatial/temporal resolution.
+                             Discretise continuous variables into important goal-oriented ranges.
+                             Classify patterns by discrete labels.
+                             Reduce dimensionality by projection onto a subspace.
+                             
+There is also a type of ‘algorithmic abstraction’ by which a slow, accurate algorithm is replaced by a faster, approximate algorithm which gives results that are ‘good enough’ for the target problem.
+
+        
+9). What is the concept of generalization? What function does it play in the machine learning process?
+A:- In machine learning, generalization is a definition to demonstrate how well is a trained model to classify or forecast unseen data. Training a generalized         machine learning model means, in general, it works for all subset of unseen data. An example is when we train a model to classify between dogs and cats.
+
+    A model's ability to generalize is central to the success of a model. If a model has been trained too well on training data, it will be unable to generalize.       It will make inaccurate predictions when given new data, making the model useless even though it is able to make accurate predictions for the training data.
+    
+    
+10). What is classification, exactly? What are the main distinctions between classification and regression?
+A:- Classification is the task of predicting a discrete class label. It is a process of categorizing a given set of data into classes, It can be performed on both     structured or unstructured data. The process starts with predicting the class of given data points. The classes are often referred to as target, label or           categories.
+
+   In classification problems, our learning algorithm learns a function to map inputs to outputs where the output value is a discrete class label (i.e. cat or dog,    malignant or benign, spam or non-spam, etc). Popular classification algorithms inlcude:
+
+     Logistic Regression
+     Naive Bayes
+     K-Nearest Neighbors
+     Decision Tree
+     Support Vector Machines
+
+   In contrast, regression problems are concerned with mapping inputs to outputs where the output is a continous real number (i.e. the price of a house). Popular      regression algorithms include:
+   
+     Linear Regression
+     Ridge Regression
+     Lasso Regression
+     Neural Networks Regression
+     Decision Tree
+     
+    
+11). What is regression, and how does it work? Give an example of a real-world problem that was solved using regression.
+A:- Regression in machine learning consists of mathematical methods that allow data scientists to predict a continuous outcome (y) based on the value of one or         more predictor variables (x). 
+
+    Ex:- a). Businesses often use linear regression to understand the relationship between advertising spending and revenue.
+         b). Data scientists for professional sports teams often use linear regression to measure the effect that different training regimens have on player                    performance.
+         
+                
+12). Describe the clustering mechanism in detail.
+A:-  Clustering is a task of dividing the data sets into a certain number of clusters in such a manner that the data points belonging to a cluster have similar          characteristics. Clusters are nothing but the grouping of data points such that the distance between the data points within the clusters is minimal. It is a        type of unsupervised learning method of machine learning. In the unsupervised learning method, the inferences are drawn from the data sets which do not            contain labelled output variable. It is an exploratory data analysis technique that allows us to analyze the multivariate data sets.
+
+
+13). Make brief observations on two of the following topics:
+     i).  Studying under supervision
+     ii). Studying without supervision
+A:- 
+i). Studying under supervision :- Supervised learning is a machine learning approach that’s defined by its use of labeled datasets. These datasets are designed to train or “supervise” algorithms into classifying data or predicting outcomes accurately. Using labeled inputs and outputs, the model can measure its accuracy and learn over time.
+
+ii). Studying without supervision :- Unsupervised learning uses machine learning algorithms to analyze and cluster unlabeled data sets. These algorithms discover hidden patterns in data without the need for human intervention (hence, they are “unsupervised”).
+
